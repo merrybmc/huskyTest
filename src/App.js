@@ -13,6 +13,8 @@ function App() {
   console.log(test);
 
   if (house == name) console.log(test);
+  if (house == name) console.log(test);
+  if (house == name) console.log(test);
 
   return (
     <>
