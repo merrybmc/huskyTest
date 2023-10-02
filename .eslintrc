@@ -3,6 +3,6 @@
   "rules": {
     "no-var": "error",
     "no-multiple-empty-lines": "error",
-    "no-console": "error"
+    "no-console": ["error", {"allow": ["warn", "error", "info"]}]
   }
 }
