@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
 function App() {
-  const [name, setName] = useState(0);
+  const name = useState(1);
 
   return (
     <>
