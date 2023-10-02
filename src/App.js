@@ -1,11 +1,15 @@
 function App() {
   const name = 'hello';
+
   const house = 'aaa';
+
   const obj = {
     name: 'hello',
     house: true
   };
+
   let test = '1234';
+
   return (
     <>
       <div
