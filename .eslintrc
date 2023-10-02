@@ -2,6 +2,7 @@
   "extends": ["react-app", "eslint:recommended", "prettier"],
   "rules": {
     "no-var": "error",
-    "no-multiple-empty-lines": "error"
+    "no-multiple-empty-lines": "error",
+    "no-console": "error"
   }
 }

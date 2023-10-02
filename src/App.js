@@ -10,6 +10,8 @@ function App() {
 
   let test = '1234';
 
+  console.log(test);
+
   return (
     <>
       <div
