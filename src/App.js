@@ -1,30 +1,12 @@
+import {useState} from 'react';
+
 function App() {
-  const name = 'hello';
-
-  const house = 'aaa';
-
-  const obj = {
-    name: 'hello',
-    house: true
-  };
-
-  let test = '1234';
-
-  console.log(test);
-
-  if (house == name) console.log(test);
-  if (house == name) console.log(test);
-  if (house == name) console.log(test);
+  const [name, setName] = useState(0);
 
   return (
     <>
-      <div
-        className='App'
-        onClick={(e) => {
-          console.log(e.target);
-        }}
-        onMouseDown={() => {}}
-        onMouseEnter={() => {}}>
+      {name}
+      <div className='App' onClick={(e) => {}} onMouseDown={() => {}} onMouseEnter={() => {}}>
         안녕하세요
       </div>
     </>
