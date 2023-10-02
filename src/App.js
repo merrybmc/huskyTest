@@ -5,7 +5,7 @@ function App() {
     name: 'hello',
     house: true
   };
-  var test = '1234';
+  let test = '1234';
   return (
     <>
       <div
