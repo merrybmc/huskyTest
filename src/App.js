@@ -10,11 +10,7 @@ function App() {
       {name}
       {name}
       {name}
-      {name}
-      {name}
-      {name}
-      {name}
-      {name}
+
       <div className='App' onClick={(e) => {}} onMouseDown={() => {}} onMouseEnter={() => {}}>
         안녕하세요
       </div>
