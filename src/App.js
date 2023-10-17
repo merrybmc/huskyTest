@@ -6,11 +6,11 @@ function App() {
   console.log(name);
   console.log(data);
 
-  let abc = 1;
+  let abcde = 1;
 
   let abcd = 1;
 
-  if (abc == abcd) {
+  if (abcde == abcd) {
   }
   return (
     <>
