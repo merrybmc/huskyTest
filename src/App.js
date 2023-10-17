@@ -12,8 +12,8 @@ function App() {
       {name}
       {data.name}
       {data.age}
-      {list.map((data) => (
-        <p>{data.name}</p>
+      {list.map((data, index) => (
+        <p key={index}>{data.name}</p>
       ))}
       <div className='App' onClick={(e) => {}} onMouseDown={() => {}} onMouseEnter={() => {}}>
         안녕하세요
