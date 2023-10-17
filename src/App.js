@@ -11,7 +11,7 @@ function App() {
   // bracket notation
   // console.log(list[0]['name']);
 
-  // dot notation
+  // dot notation 123
   console.log(list[0].name);
   return (
     <>
