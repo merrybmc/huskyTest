@@ -10,7 +10,8 @@ function App() {
 
   let abcd = 1;
 
-  if (abcde == abcd) {
+  if (abcde === abcd) {
+    return;
   }
   return (
     <>
