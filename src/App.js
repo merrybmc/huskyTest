@@ -6,7 +6,7 @@ function App() {
   console.log(name);
   console.log(data);
 
-  let list = [{name: 'abc'}, {name: 'bcd'}];
+  let list = [{name: 'abcd'}, {name: 'bcd'}];
   return (
     <>
       {name}
