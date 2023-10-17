@@ -7,6 +7,12 @@ function App() {
   console.log(data);
 
   let list = [{name: 'abcd'}, {name: 'bcd'}];
+
+  // bracket notation
+  console.log(list[0]['name']);
+
+  // dot notation
+  // console.log(list[0].name);
   return (
     <>
       {name}
